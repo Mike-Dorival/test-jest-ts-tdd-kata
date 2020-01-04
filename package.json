@@ -1,0 +1,19 @@
+{
+  "name": "test-jest-ts-tdd-kata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc ./src/index.ts && node ./src/index.js",
+    "test": "jest"
+  },
+  "author": "Miky D Marshall",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.4",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  }
+}
